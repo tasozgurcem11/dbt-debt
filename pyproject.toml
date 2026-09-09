@@ -37,7 +37,7 @@ bigquery = ["google-cloud-bigquery>=3.0"]
 snowflake = ["snowflake-connector-python>=3.0"]
 redshift = ["redshift-connector>=2.1"]
 databricks = ["databricks-sql-connector>=3.0"]
-dev = ["pytest>=8.0", "pytest-cov>=5.0", "mypy>=1.8", "ruff>=0.4"]
+dev = ["pytest>=8.0", "pytest-cov>=5.0", "mypy>=1.8", "ruff==0.4.10"]
 
 [project.scripts]
 dbt-debt = "dbt_debt.cli:main"
